@@ -1,11 +1,11 @@
 var playlist = {artist: "songTitle"}
 
-function updatePlaylist(list, artist, song) {
-  list.artist = song
-  console.log(list)
-  return list
+function updatePlaylist(playlist, artistName, songTitle) {
+  return playlist.artistName = songTitle
+  console.log(playlist)
 }
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName
+  return playlist
 }
