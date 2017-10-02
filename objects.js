@@ -1,7 +1,6 @@
 var playlist = {artist: "songTitle"}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  console.log(playlist)
   return playlist.artistName = songTitle
 }
 
